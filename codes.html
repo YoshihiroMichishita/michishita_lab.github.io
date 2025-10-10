@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <!--<link rel="stylesheet" href="css/reset.css">-->
+        <link rel="stylesheet" href="css/style.css">
+        <title>YoshihiroMichishita's Works</title>
+    </head>
+    <body>
+        <header>
+            <nav class="gnav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="member.html">Member</a></li>
+                    <li><a href="https://github.com/YoshihiroMichishita/YoshihiroMichishita.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Aslide">Notes&Slides</a></li>
+                    <li><a href="codes.html">Codes</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="head"><img src="image/header2.JPG" width="100%" alt="ストックホルムのカエル"></div>
+        <main>
+            <p>まとめきれてないですが、研究室でこれまでに使ったコード＋αを公開してます。個人的には、同じような数値計算をするのに、研究者(各研究室)が独立に同じようなコードを書くのは時間の無駄だし、アカデミアにとっても損失だと思うので、積極的に公開していこうと思います。(研究室内でのコードの遺産の共有の意味もあります。)</p>
+            <p>環境構築等もIssuesの方に順次追加していくので、M1の方とか参考にしてみてください。(もちろんもっと良い構築の仕方は存在すると思います。とりあえず。こんくらいの環境を作っとけば、研究を進められるんだな程度に思ってください。)</p>
+            <ul>
+                <section>
+                    <li style="text-decoration:underline"><h3><a href="https://github.com/YoshihiroMichishita/YoshihiroMichishita.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Aset-up">環境構築</a></h3></li>
+                    <p>Issuesに書いてます。よりよい方法等あれば、是非コメントお願いします。</p>
+                </section>
+                <section>
+                    <li class="topic"><h3><a href="https://github.com/YoshihiroMichishita/shellscript">shellscript</a></h3></li>
+                    <p>JOB管理システムslurm下で計算機で計算を回す用のシェルを書いてます。パラメータを色々振って計算を投げたい時にどうぞ。</p>
+                </section>
+                <section>
+                    <li class="topic"><h3><a href="https://github.com/YoshihiroMichishita/JuliaTutorial_CondMat">JuliaのTutorial</a></h3></li>
+                    <p>元々いた研究室でM1用に作った物性で簡単な数値計算始める用のTutorialが書かれたJupyter Notebookがあるので、是非参考にしてみてください。（ファイル名はTutorial1.ipynb, Tutorial2.ipynb, Tutorial3.ipynb。ちょこちょこアップデートしてます。）</p>
+                    <p>非線形応答のコードは<a href="https://github.com/YoshihiroMichishita/NonlinearConductivity">NonlinearConductivityのリポジトリ</a>に入ってます。(現在再整備中。長めの休暇を取った時に整備を終わらせたい。。)Tutorialとは別に、Jupyter Notebook以外で計算を動かす時に知っておくべき事がいくつかあるので、2D_TMD周りのコードを参考にすると色々良いかも知れません。
+                        埼玉大の品岡さん達が強相関の自己エネルギー等を計算する<a href="https://spm-lab.github.io/sparse-ir-tutorial/src/DMFT_IPT_py.html">コード</a>を公開してくれているので、組み合わせればそれだけで新しい研究になるとは思います。</p>
+                    <p> ReiforestmentLearningのディレクトリには、趣味で読んでる<a href="https://www.amazon.co.jp/gp/product/4296110365/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1">強化学習の本</a>のサンプルコード(Python)を勉強がてらにJuliaに書き直したものを入れてます。(M1 MacのJulia-ver1.7.2で動作確認済み) </p>
+                </section>
+                <section>
+                    <li class="topic"><h3><a href="https://github.com/YoshihiroMichishita/JuliaTutorial_CondMat">Julia(研究周りのコード, 公開可能なもののみ)</a></h3></li>
+                    <p>研究室で出した論文の計算やその前段階のテスト計算に用いたコードを置いておきます。公開可能なモノのみになります。</p>
+                </section>
+            </ul>
+        
+        </main>
+    </body>
+</html>
