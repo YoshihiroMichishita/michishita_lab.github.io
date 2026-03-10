@@ -31,8 +31,11 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 を実行。Xcode Command Lineをインストールするか聞かれるので、そのままEnterを押す。
+
 ![homebrew_install](./screenshot/homebrew_install1.png)
+
 その後、homebrewのパスを通すコマンドを打っといてねと言われるので、言う通りに以下を実行。
+
 ![homebrew_install2](./screenshot/homebrew_install2.png)
 
 ```
